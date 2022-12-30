@@ -117,13 +117,15 @@ li{
 .illus{
     display: flex;
     justify-content: center;
-    gap: 60px;
+    gap: 0px;
+    flex-wrap: wrap;
 }
 
 figure{
     text-align: center;
     color: #5c6e86;
     font-size: 25px;
+    margin: 30px;
 }
 
 #end{
